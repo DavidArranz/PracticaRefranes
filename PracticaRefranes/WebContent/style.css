@@ -1,0 +1,38 @@
+@charset "UTF-8";
+header h1{
+	font-weight:bold;
+	text-align:center;
+	border-style: solid;
+}
+p.c1{
+	border-top: double 20px red;
+	border-left: double 20px red;
+}
+p.c2{
+	border-top: dashed blue 5px;
+	border-left: solid green 40px;
+	border-right: dashed green 10px;
+	border-bottom: dashed blue 20px;
+}
+p.c3{
+	border-width:40px 10px;
+	border-style: double;
+	border-color: yellow;
+}
+p.c4{
+	border-top: solid 20px lime;
+	border-bottom: solid 20px blue;
+}
+p.c5{
+	border-top: dashed 40px red;
+	border-left: solid 40px;
+	border-right: solid 40px;
+	border-bottom: dotted 40px;
+	
+}
+p.c6{
+	border-top: dotted 10px;
+	border-right: solid 40px;
+	border-bottom: dashed 30px;
+	border-left: double 40px red;
+}
